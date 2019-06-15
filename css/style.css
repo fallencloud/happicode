@@ -27,11 +27,36 @@ p {
 Utilities Styles
 ******************************/
 .text-primary {
-  color: #e4f978;
+  color: #80fd6d;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #396dab;
+  background: #80fd6d;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #ab3b31;
+  color: #fff;
 }
 
 /*****************************
-Utilities Styles
+Navbar
 ******************************/
 #navbar {
   display: flex;
@@ -57,7 +82,32 @@ Utilities Styles
 }
 
 #navbar ul li a:hover {
-  background: #e4f978;
+  background: #80fd6d;
   border-radius: 5px;
   color: #396dab;
+}
+
+/*****************************
+Showcase
+******************************/
+#showcase {
+  background: #396dab url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* overlay */
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(56, 120, 196, 0.3);
 }
