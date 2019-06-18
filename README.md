@@ -8,3 +8,5 @@ A landing page for a ficticious tutoring company using HTML, CSS, and jQuery.
 2. Add base nav bar.
 3. Add showcase
 4. Add About Section
+5. Add Contact Section
+6. Add Footer

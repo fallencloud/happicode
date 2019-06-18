@@ -45,6 +45,17 @@ Utilities Styles
   background: #f4f4f4;
   color: #333;
 }
+
+.bg-dark {
+  background: #396dab;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #80fd6d;
+  color: #fff;
+}
+
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -62,6 +73,30 @@ Utilities Styles
   margin-bottom: 2rem;
 }
 
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
 .btn {
   display: inline-block;
   color: #396dab;
@@ -72,10 +107,20 @@ Utilities Styles
 }
 
 .btn:hover {
-  background: #ab3b31;
-  color: #fff;
+  background: #396dab;
+  color: #80fd6d;
 }
 
+.btn-inverse {
+  background: #396dab;
+  color: #80fd6d;
+}
+
+.btn-inverse:hover {
+  background: #80fd6d;
+  color: #396dab;
+  border: 1px solid #396dab;
+}
 .btn-outline {
   color: #80fd6d;
   background: transparent;
@@ -85,18 +130,6 @@ Utilities Styles
 .btn-outline:hover {
   color: #396dab;
   background: #80fd6d;
-}
-
-.py-1 {
-  padding: 1.5rem 0;
-}
-
-.py-1 {
-  padding: 2rem 0;
-}
-
-.py-1 {
-  padding: 3rem 0;
 }
 
 /*****************************
@@ -184,4 +217,30 @@ Section: What We Do
 #what .items .item:nth-child(2) {
   border-left: #396dab solid 2px;
   border-right: #396dab solid 2px;
+}
+
+/*****************************
+Section: Contact
+******************************/
+#contact {
+  display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
