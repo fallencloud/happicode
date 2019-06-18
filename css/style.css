@@ -26,12 +26,33 @@ p {
 /*****************************
 Utilities Styles
 ******************************/
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-primary {
   color: #80fd6d;
 }
 
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
 .l-heading {
   font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
   margin-bottom: 0.75rem;
   line-height: 1.1;
 }
@@ -53,6 +74,29 @@ Utilities Styles
 .btn:hover {
   background: #ab3b31;
   color: #fff;
+}
+
+.btn-outline {
+  color: #80fd6d;
+  background: transparent;
+  border: 2px solid #80fd6d;
+}
+
+.btn-outline:hover {
+  color: #396dab;
+  background: #80fd6d;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-1 {
+  padding: 2rem 0;
+}
+
+.py-1 {
+  padding: 3rem 0;
 }
 
 /*****************************
@@ -81,6 +125,10 @@ Navbar
   margin: 0 0.25rem;
 }
 
+#navbar ul li a.btn-outline {
+  color: #80fd6d;
+}
+
 #navbar ul li a:hover {
   background: #80fd6d;
   border-radius: 5px;
@@ -105,9 +153,35 @@ Showcase
   height: 100%;
   /* overlay */
   position: absolute;
-  top: 60px;
+  top: 80px;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: rgba(56, 120, 196, 0.3);
+}
+
+/*****************************
+Section: What We Do
+******************************/
+#what .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .items .item i {
+  background: #80fd6d;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#what .items .item:nth-child(2) {
+  border-left: #396dab solid 2px;
+  border-right: #396dab solid 2px;
 }
