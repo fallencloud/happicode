@@ -10,3 +10,4 @@ A landing page for a ficticious tutoring company using HTML, CSS, and jQuery.
 4. Add About Section
 5. Add Contact Section
 6. Add Footer
+7. Add Smooth Scroll
