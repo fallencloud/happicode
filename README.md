@@ -13,3 +13,4 @@ View Live: https://fallencloud.github.io/happicode/
 5. Add Contact Section
 6. Add Footer
 7. Add Smooth Scroll
+8. Responsive Styles: Widescreen
