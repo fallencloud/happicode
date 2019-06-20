@@ -184,6 +184,7 @@ Showcase
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 0 2rem;
   /* overlay */
   position: absolute;
   top: 80px;
